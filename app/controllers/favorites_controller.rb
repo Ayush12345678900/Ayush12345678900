@@ -1,4 +1,8 @@
 class FavoritesController < ApplicationController
+
+def index
+end
+
   def update
   favorite = Favorite.where(post: Post.find(params[:post]), user: current_user)
   if favorite == []
@@ -15,4 +19,10 @@ respond_to do |format|
   format.js {}
   end
 end
+
+def show
+  @favourite_exists = Favorite.where(post: @post, user: current_user) == [] ? false : true
+  end
+  
+
 end

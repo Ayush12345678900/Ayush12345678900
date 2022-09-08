@@ -28,6 +28,8 @@ gem 'devise', '~> 4.8', '>= 4.8.1'
 
 gem'jquery-rails'
 
+# gem 'semantic-ui-sass'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
@@ -83,7 +85,6 @@ group :development do
   #Guard::LiveReload automatically reloads your browser when 'view' files are modified.
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2' , require: false
 
-  #Make errors better looking
 
 end
 

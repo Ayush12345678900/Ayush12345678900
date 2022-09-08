@@ -231,6 +231,8 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    semantic-ui-sass (2.4.4.0)
+      sassc
     shellany (0.0.1)
     simple_form (5.1.0)
       actionpack (>= 5.2)
@@ -290,6 +292,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
   selenium-webdriver
+  semantic-ui-sass
   simple_form (~> 5.1)
   sprockets-rails
   sqlite3 (~> 1.4)
